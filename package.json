@@ -1,0 +1,58 @@
+{
+  "name": "funlan",
+  "version": "1.0.0",
+  "description": "FUNLAN - The Native Language of Autonomous Agents. Emoji-based symbolic language for AI agent communication.",
+  "main": "dist/index.js",
+  "bin": {
+    "funlan": "./bin/funlan.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "funlan",
+    "emoji",
+    "agent",
+    "language",
+    "symbolic",
+    "ai",
+    "autonomous",
+    "communication",
+    "tokenization"
+  ],
+  "author": "claw.click",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawclick/FUNLAN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clawclick/FUNLAN/issues"
+  },
+  "homepage": "https://www.claw.click/funlan",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "emoji-regex": "^10.3.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.4",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
